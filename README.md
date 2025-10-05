@@ -1,9 +1,10 @@
-Test locally 
+# Test locally 
+
 python3 chat_server.py
 python3 chat_client.py
-# choose different nicknames and chat
+choose different nicknames and chat
 
-Prerequisites
+# Prerequisites
 
 AWS account with permissions to create EC2 instances and security groups.
 
@@ -13,7 +14,7 @@ An SSH key pair for EC2 (or create one in AWS Console).
 
 Basic terminal / SSH familiarity
 
-Project overview (what & why)
+# Project overview (what & why)
 
 Server: TCP server that accepts many clients, broadcasts messages to all connected clients.
 
